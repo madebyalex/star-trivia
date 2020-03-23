@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112A9A1424245A15004A0E8B /* BlackBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112A9A1324245A15004A0E8B /* BlackBgView.swift */; };
+		112A9A1724245AAE004A0E8B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112A9A1624245AAE004A0E8B /* Constants.swift */; };
+		11D085D4216D76700004DEC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D085D3216D76700004DEC1 /* AppDelegate.swift */; };
+		11D085D6216D76710004DEC1 /* SelectPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D085D5216D76710004DEC1 /* SelectPersonVC.swift */; };
+		11D085D9216D76710004DEC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D085D7216D76710004DEC1 /* Main.storyboard */; };
+		11D085DB216D76720004DEC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D085DA216D76720004DEC1 /* Assets.xcassets */; };
+		11D085DE216D76720004DEC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D085DC216D76720004DEC1 /* LaunchScreen.storyboard */; };
+		11D085E8216D78800004DEC1 /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11D085E5216D78800004DEC1 /* Starjedi.ttf */; };
+		11D085E9216D78800004DEC1 /* Starjhol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11D085E6216D78800004DEC1 /* Starjhol.ttf */; };
+		11D085EA216D78800004DEC1 /* Starjout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11D085E7216D78800004DEC1 /* Starjout.ttf */; };
+		11E7FD292427B62000A9347E /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E7FD282427B62000A9347E /* PersonApi.swift */; };
+		11E7FD2B2427C3E000A9347E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E7FD2A2427C3E000A9347E /* Person.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		112A9A1324245A15004A0E8B /* BlackBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBgView.swift; sourceTree = "<group>"; };
+		112A9A1624245AAE004A0E8B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		11D085D0216D76700004DEC1 /* StarTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D085D3216D76700004DEC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11D085D5216D76710004DEC1 /* SelectPersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPersonVC.swift; sourceTree = "<group>"; };
+		11D085D8216D76710004DEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11D085DA216D76720004DEC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11D085DD216D76720004DEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11D085DF216D76720004DEC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D085E5216D78800004DEC1 /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+		11D085E6216D78800004DEC1 /* Starjhol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjhol.ttf; sourceTree = "<group>"; };
+		11D085E7216D78800004DEC1 /* Starjout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjout.ttf; sourceTree = "<group>"; };
+		11E7FD282427B62000A9347E /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
+		11E7FD2A2427C3E000A9347E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11D085CD216D76700004DEC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112A9A1524245A94004A0E8B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				112A9A1624245AAE004A0E8B /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		11D085C7216D76700004DEC1 = {
+			isa = PBXGroup;
+			children = (
+				11D085D2216D76700004DEC1 /* StarTrivia */,
+				11D085D1216D76700004DEC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11D085D1216D76700004DEC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11D085D0216D76700004DEC1 /* StarTrivia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11D085D2216D76700004DEC1 /* StarTrivia */ = {
+			isa = PBXGroup;
+			children = (
+				11D085EF216D78B90004DEC1 /* Model */,
+				11D085EE216D78B00004DEC1 /* View */,
+				11D085ED216D78A50004DEC1 /* Controller */,
+				11D085D3216D76700004DEC1 /* AppDelegate.swift */,
+				11D085D5216D76710004DEC1 /* SelectPersonVC.swift */,
+				11E7FD272427B60900A9347E /* Services */,
+				112A9A1524245A94004A0E8B /* Utils */,
+				11D085EC216D78950004DEC1 /* Resources */,
+				11D085D7216D76710004DEC1 /* Main.storyboard */,
+				11D085DA216D76720004DEC1 /* Assets.xcassets */,
+				11D085DC216D76720004DEC1 /* LaunchScreen.storyboard */,
+				11D085DF216D76720004DEC1 /* Info.plist */,
+			);
+			path = StarTrivia;
+			sourceTree = "<group>";
+		};
+		11D085EB216D788B0004DEC1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				11D085E5216D78800004DEC1 /* Starjedi.ttf */,
+				11D085E6216D78800004DEC1 /* Starjhol.ttf */,
+				11D085E7216D78800004DEC1 /* Starjout.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		11D085EC216D78950004DEC1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11D085EB216D788B0004DEC1 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		11D085ED216D78A50004DEC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		11D085EE216D78B00004DEC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				112A9A1324245A15004A0E8B /* BlackBgView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11D085EF216D78B90004DEC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11E7FD2A2427C3E000A9347E /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11E7FD272427B60900A9347E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				11E7FD282427B62000A9347E /* PersonApi.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11D085CF216D76700004DEC1 /* StarTrivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D085E2216D76720004DEC1 /* Build configuration list for PBXNativeTarget "StarTrivia" */;
+			buildPhases = (
+				11D085CC216D76700004DEC1 /* Sources */,
+				11D085CD216D76700004DEC1 /* Frameworks */,
+				11D085CE216D76700004DEC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarTrivia;
+			productName = StarTrivia;
+			productReference = 11D085D0216D76700004DEC1 /* StarTrivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11D085C8216D76700004DEC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Alexander;
+				TargetAttributes = {
+					11D085CF216D76700004DEC1 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 11D085CB216D76700004DEC1 /* Build configuration list for PBXProject "StarTrivia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11D085C7216D76700004DEC1;
+			productRefGroup = 11D085D1216D76700004DEC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11D085CF216D76700004DEC1 /* StarTrivia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11D085CE216D76700004DEC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D085DE216D76720004DEC1 /* LaunchScreen.storyboard in Resources */,
+				11D085DB216D76720004DEC1 /* Assets.xcassets in Resources */,
+				11D085E8216D78800004DEC1 /* Starjedi.ttf in Resources */,
+				11D085E9216D78800004DEC1 /* Starjhol.ttf in Resources */,
+				11D085EA216D78800004DEC1 /* Starjout.ttf in Resources */,
+				11D085D9216D76710004DEC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11D085CC216D76700004DEC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E7FD2B2427C3E000A9347E /* Person.swift in Sources */,
+				11D085D6216D76710004DEC1 /* SelectPersonVC.swift in Sources */,
+				11D085D4216D76700004DEC1 /* AppDelegate.swift in Sources */,
+				112A9A1424245A15004A0E8B /* BlackBgView.swift in Sources */,
+				11E7FD292427B62000A9347E /* PersonApi.swift in Sources */,
+				112A9A1724245AAE004A0E8B /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11D085D7216D76710004DEC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11D085D8216D76710004DEC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11D085DC216D76720004DEC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11D085DD216D76720004DEC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11D085E0216D76720004DEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11D085E1216D76720004DEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11D085E3216D76720004DEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZN234ZPN46;
+				INFOPLIST_FILE = StarTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexnuzhnyi.StarTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11D085E4216D76720004DEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZN234ZPN46;
+				INFOPLIST_FILE = StarTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexnuzhnyi.StarTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11D085CB216D76700004DEC1 /* Build configuration list for PBXProject "StarTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D085E0216D76720004DEC1 /* Debug */,
+				11D085E1216D76720004DEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11D085E2216D76720004DEC1 /* Build configuration list for PBXNativeTarget "StarTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D085E3216D76720004DEC1 /* Debug */,
+				11D085E4216D76720004DEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11D085C8216D76700004DEC1 /* Project object */;
+}
