@@ -21,7 +21,6 @@ class SelectPersonVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
 
     @IBAction func randomClicked(_ sender: Any) {
@@ -38,6 +37,7 @@ class SelectPersonVC: UIViewController {
             }
         }
     }
+    
     
 }
 
