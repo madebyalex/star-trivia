@@ -226,7 +226,6 @@
                                                 </constraints>
                                                 <state key="normal" backgroundImage="homeworld_icon"/>
                                                 <connections>
-                                                    <action selector="homeWorldClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MRf-G0-6VA"/>
                                                     <segue destination="385-Aq-QJu" kind="show" identifier="toHomeworld" id="FKs-1W-8lq"/>
                                                 </connections>
                                             </button>
@@ -238,7 +237,6 @@
                                                 </constraints>
                                                 <state key="normal" backgroundImage="vehicles"/>
                                                 <connections>
-                                                    <action selector="vehiclesClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t8k-5s-JoV"/>
                                                     <segue destination="lHL-hL-rf9" kind="show" identifier="toVehicles" id="UVO-2u-eIE"/>
                                                 </connections>
                                             </button>
@@ -250,7 +248,6 @@
                                                 </constraints>
                                                 <state key="normal" backgroundImage="starships"/>
                                                 <connections>
-                                                    <action selector="starshipsClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r5g-Q0-JgC"/>
                                                     <segue destination="Yxh-VH-eC4" kind="show" identifier="toStarships" id="Tu4-yR-BSL"/>
                                                 </connections>
                                             </button>
@@ -262,7 +259,6 @@
                                                 </constraints>
                                                 <state key="normal" backgroundImage="films"/>
                                                 <connections>
-                                                    <action selector="filmsClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kqL-MJ-fZI"/>
                                                     <segue destination="pgw-en-bE6" kind="show" identifier="toFilms" id="SBF-hy-0f5"/>
                                                 </connections>
                                             </button>
