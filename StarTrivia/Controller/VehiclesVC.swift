@@ -9,10 +9,12 @@
 import UIKit
 
 class VehiclesVC: UIViewController {
+    
+    var person: Person!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(person.vehicleUrls)
         // Do any additional setup after loading the view.
     }
     

@@ -24,6 +24,7 @@ class SelectPersonVC: UIViewController {
     
     
     var personApi = PersonApi()
+    var person: Person!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +36,7 @@ class SelectPersonVC: UIViewController {
         personApi.getRandomPersonUrlAlamo(id: random) { (person) in
             if let person = person {
                 self.setupView(person: person)
+                self.person = person
             }
         }
     }
@@ -51,6 +53,42 @@ class SelectPersonVC: UIViewController {
         vehiclesBtn.isEnabled = !person.vehicleUrls.isEmpty
         starshipsBtn.isEnabled = !person.starshipUrls.isEmpty
         filmsBtn.isEnabled = !person.filmsUrls.isEmpty
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        switch segue.identifier {
+        case Segue.homeworld.rawValue:
+            if let destination = segue.destination as? HomeworldVC {
+                destination.person = person
+            }
+            
+        case Segue.vehicles.rawValue:
+            if let destination = segue.destination as? VehiclesVC {
+                destination.person = person
+            }
+        
+        case Segue.starships.rawValue:
+            if let destination = segue.destination as? StarshipsVC {
+                 destination.person = person
+            }
+        
+        case Segue.films.rawValue:
+            if let destination = segue.destination as? FilmsVC {
+              destination.person = person
+            }
+        
+        default:
+            break
+        }
+    }
+    
+    enum Segue : String {
+        case homeworld = "toHomeworld"
+        case vehicles = "toVehicles"
+        case starships = "toStarships"
+        case films = "toFilms"
     }
     
 }
